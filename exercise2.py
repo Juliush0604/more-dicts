@@ -16,16 +16,16 @@ for k, v in numbers.items():
         print(f"... {key}: {value}")
 
 # Fill in the assignment statements to pull values from the dictionary
-# To refer to a key in the second level dictionary, put it in square brackets after hthe first level key you want
+# To refer to a key in the second level dictionary, put it in square brackets after the first level key you want
 # The first one is filled in for you
 
 squared_10 = numbers[10]['squared']
 
-cubed_75 = ''
-doubled_7 = ''
-tripled_89 = ''
-squared_42 = ''
-cubed_97 = ''
+cubed_75 = numbers[75]['cubed']
+doubled_7 = numbers[7]['doubled']
+tripled_89 = numbers[89]['tripled']
+squared_42 = numbers[42]['squared']
+cubed_97 = numbers[97]['cubed']
 
 # DO NOT EDIT BELOW THIS LINE
 
